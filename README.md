@@ -1,6 +1,8 @@
 INWX module for Caddy
 =====================
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/caddy-dns/inwx.svg)](https://pkg.go.dev/github.com/caddy-dns/inwx)
+
 This package contains a DNS provider module for [Caddy](https://github.com/caddyserver/caddy). It can be used to manage DNS records with INWX.
 
 ## Caddy module name
