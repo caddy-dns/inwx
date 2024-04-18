@@ -6,7 +6,7 @@ import (
 	libdnsinwx "github.com/libdns/inwx"
 )
 
-// Provider lets Caddy read and manipulate DNS records hosted by this DNS provider.
+// Provider lets Caddy read and manipulate DNS records hosted by INWX.
 type Provider struct{ *libdnsinwx.Provider }
 
 func init() {
