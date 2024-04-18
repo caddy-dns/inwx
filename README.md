@@ -3,7 +3,7 @@ INWX module for Caddy
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/caddy-dns/inwx.svg)](https://pkg.go.dev/github.com/caddy-dns/inwx)
 
-This package contains a DNS provider module for [Caddy](https://github.com/caddyserver/caddy). It can be used to manage DNS records with INWX.
+This package contains a DNS provider module for [Caddy](https://github.com/caddyserver/caddy). It can be used to manage DNS records with [INWX](https://www.inwx.de/en).
 
 ## Caddy module name
 
@@ -57,3 +57,7 @@ tls {
 	}
 }
 ```
+
+If you don’t provide an `endpoint_url` the URL of the production environment (https://ote.domrobot.com/jsonrpc/) is used by default. If you want to use the test environment, set `entpoint_url` to https://api.ote.domrobot.com/jsonrpc/.
+
+For more information on the configuration, see [libdns/inwx](https://github.com/libdns/inwx).
