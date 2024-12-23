@@ -41,7 +41,7 @@ or with the Caddyfile:
 		username <username>
 		password <password>
 		shared_secret <shared_secret>
-		endpoint_url <endpoint_url>"
+		endpoint_url <endpoint_url>
 	}
 }
 ```
@@ -53,7 +53,7 @@ tls {
 		username <username>
 		password <password>
 		shared_secret <shared_secret>
-		endpoint_url <endpoint_url>"
+		endpoint_url <endpoint_url>
 	}
 }
 ```
