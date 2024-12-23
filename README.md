@@ -58,6 +58,6 @@ tls {
 }
 ```
 
-If you don’t provide an `endpoint_url` the URL of the production environment (https://ote.domrobot.com/jsonrpc/) is used by default. If you want to use the test environment, set `endpoint_url` to https://api.ote.domrobot.com/jsonrpc/.
+If you don’t provide an `endpoint_url` the URL of the production environment (https://api.domrobot.com/jsonrpc/) is used by default. If you want to use the test environment, set `endpoint_url` to https://api.ote.domrobot.com/jsonrpc/.
 
 For more information on the configuration, see [libdns/inwx](https://github.com/libdns/inwx).
